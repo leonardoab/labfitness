@@ -1,0 +1,316 @@
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+
+        <head>
+            <title>Sistema LabFitness</title>
+            <meta charset="utf-8">
+            <meta name="description" content="Sistema de Avaliacao fisica e cricao de fichas de musculacao">
+            <meta name="generator" content="Brackets">
+            <meta name="keywords" content="labfitness,musculacao,ficha,saude,academia,regiane faia,leonardo bezerra
+                                           avalicao fisica,antropometria,anamnese">
+            <meta name="application-name" content="labfitness">
+            <meta http-equiv="X-UA-Compatible" content="IE-edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link href="css/bootstrap.min.css" rel="stylesheet">
+            <link href="css/estilos.css" rel="stylesheet">            
+            <script src="js/jquery.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/script.js"></script>
+
+        </head>
+        <body>
+            
+            <iframe  src="cabecario.html" ></iframe> 
+            
+                    <article>
+                        
+                        <div class="container">
+
+                                  <form class="form-horizontal">
+
+                                      <h2>Antropometria</h2>
+
+                                      <div class="form-group">
+                                            <label for="data_cadastro" class="col-sm-2 control-label">Data Cadastro</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" id="data_cadastro" placeholder="dd/mm/aaaa">
+                                            </div>
+                                      </div>
+                                      
+                                      <div class="form-group">
+                                            <label for="nome" class="col-sm-2 control-label">Nome</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" id="nome" placeholder="Nome">
+                                            </div>
+                                      </div>
+
+                                      <div class="form-group">
+                                            <label for="data_nascimento" class="col-sm-2 control-label">Data Nascimento</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" id="data_nascimento" placeholder="dd/mm/aaaa">
+                                            </div>
+                                      </div>                                      
+
+                                      <div class="form-group">
+                                            <label for="sexo" class="col-sm-2 control-label">Sexo</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" id="sexo" placeholder="Sexo">
+                                            </div>
+                                      </div>
+                                      
+                                      <h3>Dados Gerais </h3>
+
+                                      <div class="form-group">
+                                            <label for="peso" class="col-sm-2 control-label">Peso</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" id="peso" placeholder="Peso">
+                                            </div>
+                                      </div>    
+                                      
+                                      <div class="form-group">
+                                            <label for="imc" class="col-sm-2 control-label">IMC</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" id="imc" placeholder="IMC">
+                                            </div>
+                                      </div>  
+                                      
+                                      <div class="form-group">
+                                            <label for="icq" class="col-sm-2 control-label">ICQ</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" id="icq" placeholder="ICQ">
+                                            </div>
+                                      </div>  
+                                      
+                                      <div class="form-group">
+                                            <label for="altura" class="col-sm-2 control-label">Altura</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" id="altura" placeholder="Altura">
+                                            </div>
+                                      </div>  
+                                      
+                                      <h3>Dobras Cutaneas </h3>
+                                      
+                                      <div class="form-group">
+                                            <label for="protocolo" class="col-sm-2 control-label">Protocolo</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" id="protocolo" placeholder="Protocolo">
+                                            </div>
+                                      </div>  
+                                      
+                                      <div class="form-group">
+                                            <label for="subescapular" class="col-sm-2 control-label">Subescapular</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" id="subescapular" placeholder="Subescapular">
+                                            </div>
+                                      </div>  
+                                      
+                                      <div class="form-group">
+                                            <label for="triciptal" class="col-sm-2 control-label">Triciptal</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" id="triciptal" placeholder="Triciptal">
+                                            </div>
+                                      </div>  
+                                      
+                                      <div class="form-group">
+                                            <label for="biceps" class="col-sm-2 control-label">Biceps</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" id="biceps" placeholder="Biceps">
+                                            </div>
+                                      </div>  
+                                      
+                                      
+                                      <div class="form-group">
+                                            <label for="peitoral" class="col-sm-2 control-label">Peitoral</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" id="peitoral" placeholder="Peitoral">
+                                            </div>
+                                      </div>  
+                                      
+                                      <div class="form-group">
+                                            <label for="axilar_media" class="col-sm-2 control-label">Axilar Media</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" id="axilar_media" placeholder="Axilar Media">
+                                            </div>
+                                      </div>  
+                                      
+                                      <div class="form-group">
+                                            <label for="suprailiaca" class="col-sm-2 control-label">Suprailiaca</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" id="suprailiaca" placeholder="Suprailiaca">
+                                            </div>
+                                      </div>                                       
+                                      
+                                      
+                                       <div class="form-group">
+                                            <label for="abdominal" class="col-sm-2 control-label">Abdominal</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" id="abdominal" placeholder="Abdominal">
+                                            </div>
+                                      </div>  
+                                      
+                                      
+                                       <div class="form-group">
+                                            <label for="coxa" class="col-sm-2 control-label">Coxa</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" id="coxa" placeholder="Coxa">
+                                            </div>
+                                      </div>  
+                                      
+                                      
+                                      <div class="form-group">
+                                            <label for="perna" class="col-sm-2 control-label">Perna</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" id="perna" placeholder="Perna">
+                                            </div>
+                                      </div>  
+                                      
+                                      <h3>Perimetria </h3>  
+                                      
+                                       <div class="form-group">
+                                            <label for="ombro" class="col-sm-2 control-label">Ombro</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" id="ombro" placeholder="Ombro">
+                                            </div>
+                                      </div>  
+                                      
+                                       <div class="form-group">
+                                            <label for="torax" class="col-sm-2 control-label">Torax</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" id="torax" placeholder="Torax">
+                                            </div>
+                                      </div>  
+                                      
+                                       <div class="form-group">
+                                            <label for="busto" class="col-sm-2 control-label">Busto</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" id="busto" placeholder="Busto">
+                                            </div>
+                                      </div>  
+                                      
+                                      <div class="form-group">
+                                            <label for="cintura" class="col-sm-2 control-label">Cintura</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" id="cintura" placeholder="Cintura">
+                                            </div>
+                                      </div>  
+                                      
+                                      <div class="form-group">
+                                            <label for="abdomen" class="col-sm-2 control-label">Abdomen</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" id="abdomen" placeholder="Abdomen">
+                                            </div>
+                                      </div>  
+                                      
+                                      <div class="form-group">
+                                            <label for="quadril" class="col-sm-2 control-label">Quadril</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" id="quadril" placeholder="Quadril">
+                                            </div>
+                                      </div>  
+                                      
+                                      <div class="form-group">
+                                            <label for="braco_esq" class="col-sm-2 control-label">Braço Esquerdo</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" id="braco_esq" placeholder="Braço Esquerdo">
+                                            </div>
+                                      </div>  
+                                      
+                                      <div class="form-group">
+                                            <label for="braco_dir" class="col-sm-2 control-label">Braço Direito</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" id="braco_dir" placeholder="Braço Direito">
+                                            </div>
+                                      </div>
+                                      
+                                      <div class="form-group">
+                                            <label for="antebraco_esq" class="col-sm-2 control-label">Antebraço Esquerdo</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" id="antebraco_esq" placeholder="Antebraço Esquerdo">
+                                            </div>
+                                      </div>  
+                                      
+                                      <div class="form-group">
+                                            <label for="antebraco_dir" class="col-sm-2 control-label">Antebraço Direito</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" id="antebraco_dir" placeholder="Antebraço Direito">
+                                            </div>
+                                      </div>
+                                      
+                                      <div class="form-group">
+                                            <label for="coxa_esq" class="col-sm-2 control-label">Coxa Esquerdo</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" id="coxa_esq" placeholder="Coxa Esquerdo">
+                                            </div>
+                                      </div>  
+                                      
+                                      <div class="form-group">
+                                            <label for="coxa_dir" class="col-sm-2 control-label">Coxa Direito</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" id="coxa_dir" placeholder="Coxa Direito">
+                                            </div>
+                                      </div>
+                                      
+                                      <div class="form-group">
+                                            <label for="perna_esq" class="col-sm-2 control-label">Perna Esquerdo</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" id="perna_esq" placeholder="Coxa Esquerdo">
+                                            </div>
+                                      </div>  
+                                      
+                                      <div class="form-group">
+                                            <label for="perna_dir" class="col-sm-2 control-label">Perna Direito</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" id="perna_dir" placeholder="Coxa Direito">
+                                            </div>
+                                      </div>
+                                      
+                                      
+                                      <h3>Composição Corporal </h3>                                       
+
+                                      <div class="form-group">
+                                            <label for="massa_corporal_total" class="col-sm-2 control-label">Massa corporal total</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" id="massa_corporal_total" placeholder="Massa corporal total">
+                                            </div>
+                                      </div>
+                                      
+                                      <div class="form-group">
+                                            <label for="percentual_gordura" class="col-sm-2 control-label">Percentual Gordura</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" id="percentual_gordura" placeholder="Percentual Gordura">
+                                            </div>
+                                      </div>
+                                      
+                                      <div class="form-group">
+                                            <label for="percentual_massa" class="col-sm-2 control-label">Percentual Massa Magra</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" id="percentual_massa" placeholder="Percentual Massa Magra">
+                                            </div>
+                                      </div>
+                                      
+                                      <div class="form-group">
+                                            <label for="massa_magra" class="col-sm-2 control-label">Massa Magra</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" id="massa_magra" placeholder="Massa Magra">
+                                            </div>
+                                      </div>
+                                      
+                                      <div class="form-group">
+                                            <label for="gordura_corporal" class="col-sm-2 control-label">Gordura Corporal</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" id="gordura_corporal" placeholder="Gordura Corporal">
+                                            </div>
+                                      </div>                                           
+                                                                          
+
+                                  </form>  
+                            
+                        </div> 
+                        
+                    </article>
+
+            <iframe  src="rodape.html" ></iframe>                      
+           
+        </body>
+
+    </html>
