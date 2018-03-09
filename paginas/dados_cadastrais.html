@@ -11,117 +11,219 @@
             <meta name="application-name" content="labfitness">
             <meta http-equiv="X-UA-Compatible" content="IE-edge">
             <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+            
+            
+            
+            <!-- Required meta tags -->
+    
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+            <!-- Bootstrap CSS -->
+            <link href="css/estilos.css" rel="stylesheet"> 
+            
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
             <link href="css/bootstrap.min.css" rel="stylesheet">
-            <link href="css/estilos.css" rel="stylesheet">            
-            <script src="js/jquery.js"></script>
-            <script src="js/bootstrap.min.js"></script>
-            <script src="js/script.js"></script>
+            
+            
+            
 
         </head>
         <body id="dados_cadastrais">
             
-            <iframe  src="cabecario.html" ></iframe> 
+             <header>
+
+                    <nav class="navbar navbar-default navbar-fixed-top">
+                        <section class="container">
+                            <div class="navbar-header">
+
+                                 <a href="#" class="navbar-toggle collapsed"> REGIANE FAIA </a>  
+                                <button type="button"
+                                    class="navbar-toggle collapsed"
+                                        data-toggle="collapse"
+                                        data-target="#movelmenu"
+                                        aria-expanded="false"                               
+                                        >
+                                    
+                                    
+                                      
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>    
+                                <span class="icon-bar"></span>        
+                                <span class="icon-bar"></span>        
+                                </button>
+
+                               
+                            </div>
+
+                            <div class="collapse navbar-collapse" id="movelmenu">
+                                
+                                 <a href="#" class="navbar-brand"> REGIANE FAIA </a>
+                                
+
+                                <ul class="nav nav-pills justify-content-end ">
+                                   
+                                    <li><a href="home.html" >Home</a></li>
+                                    <li class="active"><a href="dados_cadastrais.html" target="_parent">Dados Cadastrais</a></li>                                 
+                                    <li><a href="ficha.html" target="_parent">Ficha</a></li> 
+                                    <li><a href="anamnese.html" target="_parent">Anamnese</a></li> 
+                                    <li><a href="antropometria.html" target="_parent">Antropometria</a></li> 
+                                    <li><a href="vodois.html" target="_parent">VO2</a></li>                 
+                                  
+                                
+                                    
+                                </ul>                               
+
+
+                            </div>
+                        </section>
+                    </nav>                    
+                    
+                </header> 
             
-                    <article>
+                    <article >
                         
                         <div class="container">
 
                                   <form class="form-horizontal">
-
-                                      <h2> Dados Cadastrais do Aluno</h2>
+                                      
+                                    
+                                      <div class="clearfix visible-lg-block"></div>
 
                                       <div class="form-group">
-                                            <label for="data_cadastro" class="col-sm-2 control-label">Data Cadastro</label>
-                                            <div class="col-sm-10">
+                                            <label for="data_cadastro" class="col-sm-2 col-md-6 col-lg-2 control-label">Data Cadastro</label>
+                                            <div class="col-sm-10 col-md-6 col-lg-10">
                                                 <input class="form-control" type="text" id="data_cadastro" placeholder="dd/mm/aaaa">
                                             </div>
                                       </div>
                                       
-                                       <div class="form-group">
-                                            <label for="nome" class="col-sm-2 control-label">Nome</label>
+                                      <div class="form-group">
+                                            <label for="cpf" class="col-sm-2 col-md-2 col-lg-2 control-label">CPF</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" id="cpf" placeholder="CPF">
+                                            </div>
+                                      </div>
+                                      
+                                      <div class="form-group">
+                                            <label for="nome" class="col-sm-2 col-md-2 col-lg-2 control-label">Nome</label>
                                             <div class="col-sm-10">
                                                 <input class="form-control" type="text" id="nome" placeholder="Nome">
                                             </div>
                                       </div>
 
                                       <div class="form-group">
-                                            <label for="data_nascimento" class="col-sm-2 control-label">Data Nascimento</label>
-                                            <div class="col-sm-10">
+                                            <label for="data_nascimento" class="col-sm-2 col-md-2 col-lg-2 control-label">Data Nascimento</label>
+                                            <div class="col-sm-10 col-md-10 col-lg-10">
                                                 <input class="form-control" type="text" id="data_nascimento" placeholder="dd/mm/aaaa">
                                             </div>
                                       </div>
 
                                       <div class="form-group">
-                                            <label for="estado_civil" class="col-sm-2 control-label">Estado Civil</label>
-                                            <div class="col-sm-10">
+                                            <label for="estado_civil" class="col-sm-2 col-md-2 col-lg-2 control-label">Estado Civil</label>
+                                            <div class="col-sm-10 col-md-10 col-lg-10">
                                                 <input class="form-control" type="text" id="estado_civil" placeholder="Estado Civil">
                                             </div>
                                       </div>
 
                                       <div class="form-group">
-                                            <label for="sexo" class="col-sm-2 control-label">Sexo</label>
-                                            <div class="col-sm-10">
+                                            <label for="sexo" class="col-sm-2 col-md-2 col-lg-2 control-label">Sexo</label>
+                                            <div class="col-sm-10 col-md-10 col-lg-10">
                                                 <input class="form-control" type="text" id="sexo" placeholder="Sexo">
+                                            </div>
+                                      </div>
+                                      
+                                      <div class="form-group">
+                                            <label for="telefone" class="col-sm-2 col-md-2 col-lg-2 control-label">Telefone</label>
+                                            <div class="col-sm-10 col-md-10 col-lg-10">
+                                                <input class="form-control" type="telefone" id="sexo" placeholder="Telefone">
                                             </div>
                                       </div>
 
                                       <div class="form-group">
-                                            <label for="cep" class="col-sm-2 control-label">CEP</label>
-                                            <div class="col-sm-10">
+                                            <label for="cep" class="col-sm-2 col-md-2 col-lg-2 control-label">CEP</label>
+                                            <div class="col-sm-10 col-md-10 col-lg-10">
                                                 <input class="form-control" type="text" id="cep" placeholder="XXXXX-XX">
                                             </div>
                                       </div>
 
                                       <div class="form-group">
-                                            <label for="estado" class="col-sm-2 control-label">Estado</label>
-                                            <div class="col-sm-10">
+                                            <label for="estado" class="col-sm-2 col-md-2 col-lg-2 control-label">Estado</label>
+                                            <div class="col-sm-10 col-md-10 col-lg-10">
                                                 <input class="form-control" type="text" id="estado" placeholder="Estado">
                                             </div>
                                       </div>
 
                                       <div class="form-group">
-                                            <label for="cidade" class="col-sm-2 control-label">Cidade</label>
-                                            <div class="col-sm-10">
+                                            <label for="cidade" class="col-sm-2 col-md-2 col-lg-2 control-label">Cidade</label>
+                                            <div class="col-sm-10 col-md-10 col-lg-10">
                                                 <input class="form-control" type="text" id="cidade" placeholder="Cidade">
                                             </div>
                                       </div>
 
                                       <div class="form-group">
-                                            <label for="bairro" class="col-sm-2 control-label">Bairro</label>
-                                            <div class="col-sm-10">
+                                            <label for="bairro" class="col-sm-2 col-md-2 col-lg-2 control-label">Bairro</label>
+                                            <div class="col-sm-10 col-md-10 col-lg-10">
                                                 <input class="form-control" type="text" id="bairro" placeholder="Bairro">
                                             </div>
                                       </div>
 
                                       <div class="form-group">
-                                            <label for="endereco" class="col-sm-2 control-label">Endereço</label>
-                                            <div class="col-sm-10">
+                                            <label for="endereco" class="col-sm-2 col-md-2 col-lg-2 control-label">Endereço</label>
+                                            <div class="col-sm-10 col-md-10 col-lg-10">
                                                 <input class="form-control" type="text" id="endereco" placeholder="Endereço">
                                             </div>
                                       </div>
 
                                       <div class="form-group">
-                                            <label for="numero" class="col-sm-2 control-label">Número</label>
-                                            <div class="col-sm-10">
+                                            <label for="numero" class="col-sm-2 col-md-2 col-lg-2 control-label">Número</label>
+                                            <div class="col-sm-10 col-md-10 col-lg-10">
                                                 <input class="form-control" type="text" id="numero" placeholder="Número">
                                             </div>
                                       </div>
 
                                       <div class="form-group">
-                                            <label for="complemento" class="col-sm-2 control-label">Complemento</label>
-                                            <div class="col-sm-10">
+                                            <label for="complemento" class="col-sm-2 col-md-2 col-lg-2 control-label">Complemento</label>
+                                            <div class="col-sm-10 col-md-10 col-lg-10">
                                                 <input class="form-control" type="text" id="complemento" placeholder="Complemento">
                                             </div>
                                       </div>
+                                      <div class="col-lg-offset-4 col-sm-4 col-md-4 col-lg-4 text-center">
+                                      <button type="button" class="btn btn-success salvar" >Salvar</button>
+                                      </div>
+                                      
+                                      
+                                      
+                                      
+                                      
 
                                   </form>  
                             
-                        </div> 
+                        </div>
+                        
+                        <footer>
+                  
+                        </footer>   
+                            
                         
                     </article>
 
-            <iframe  src="rodape.html" ></iframe>                      
            
+            
+           
+            
+            
+            <nav class="navbar navbar-default navbar-fixed-bottom text-center">
+            <p class="copy">&copy; 2018 Labfitness - SOMALAB</p>
+            </nav>
+            
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+            <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.js"></script>
+            
         </body>
+        
+        
 
     </html>
