@@ -203,6 +203,7 @@ CREATE TABLE anamnese_questionamento (
   id_anamnese_questionamento INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
   id_questionamento INTEGER NOT NULL,
   id_anamnese INTEGER NOT NULL,
+  dsc_resposta VARCHAR(255) NULL,
   PRIMARY KEY(id_anamnese_questionamento),
   INDEX anamnese_historico_FKIndex1(id_anamnese),
   INDEX anamnese_questionamento_FKIndex2(id_questionamento),
